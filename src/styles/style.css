@@ -141,6 +141,68 @@
   
   .drop-shadow { filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%)); }
 
+  .navigation-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px 30px;
+  
+    margin: 0;
+    padding: 0;
+  
+    list-style: none;
+  }
+  
+  .navigation-card-title,
+  .navigation-card-link {
+    flex: 1 1 350px;
+    box-sizing: border-box;
+  }
+  
+  .navigation-card-link { padding: 24px; }
+  
+  .navigation-card-link:hover,
+  .navigation-card-link:hover * {
+    color: var(--white);
+  
+    background-color: var(--primary);
+  }
+  
+  .navigation-link { text-decoration: none; }
+  
+  .navigation-heading {
+    color: var(--primary);
+  
+    font-weight: 400;
+    font-size: 52px;
+    font-family: Neucha, cursive;
+    line-height: 1.2em;
+  }
+  
+  .navigation-card-heading {
+    color: var(--primary);
+  
+    font-weight: 400;
+    font-size: 34px;
+    font-family: Neucha, cursive;
+    line-height: 1.2em;
+  }
+  
+  .navigation-card-counter {
+    color: var(--primary-dark);
+  
+    font-size: 64px;
+    font-family: Neucha, cursive;
+    line-height: 70px;
+  }
+  
+  .navigation-card-text {
+    color: var(--dark);
+  
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+  }
+  
 
 /* Helpers */
 .margin-top-0 { margin-top: 0; }
